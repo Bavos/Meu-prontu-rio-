@@ -98,21 +98,4 @@ export const Scene06CTA: React.FC = () => {
 
         <div
           style={{
-            marginTop: 34,
-            display: "flex",
-            alignItems: "center",
-            justifyContent: "center",
-            gap: 18,
-            color: "#FFFFFF",
-            fontSize: 28,
-            fontWeight: 800,
-            opacity: 0.96,
-          }}
-        >
-          <span style={{ fontSize: 36, lineHeight: 1 }}>→</span>
-          <span>acesse o site</span>
-        </div>
-      </div>
-    </AbsoluteFill>
-  );
 };
