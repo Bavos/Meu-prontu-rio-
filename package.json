@@ -1,0 +1,19 @@
+{
+  "scripts": {
+    "dev": "remotion studio",
+    "render": "remotion render src/index.ts MeuProntuarioComercial out/MeuProntuario_Comercial_30s_Silent.mp4",
+    "render:thumb": "remotion still src/index.ts MeuProntuarioComercial out/MeuProntuario_Thumbnail.png --frame=870",
+    "artifact": "mkdir -p out && npm run render && npm run render:thumb"
+  },
+  "dependencies": {
+    "@remotion/cli": "latest",
+    "@remotion/renderer": "latest",
+    "framer-motion": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "remotion": "latest"
+  },
+  "devDependencies": {
+    "typescript": "latest"
+  }
+}
