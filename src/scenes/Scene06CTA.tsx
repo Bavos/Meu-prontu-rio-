@@ -66,4 +66,52 @@ export const Scene06CTA: React.FC = () => {
               opacity: 0.96,
             }}
           >
-            Organize tudo em um
+            Organize tudo em um só lugar.
+          </p>
+
+          <div style={{ transform: `scale(${pulse})` }}>
+            <CTAButton>ACESSE AGORA</CTAButton>
+          </div>
+
+          <div
+            style={{
+              marginTop: 118,
+              display: "flex",
+              flexDirection: "column",
+              alignItems: "center",
+            }}
+          >
+            <div
+              style={{
+                color: "#FFFFFF",
+                fontSize: 48,
+                lineHeight: 1.05,
+                fontWeight: 950,
+                letterSpacing: -0.8,
+                textAlign: "center",
+                textShadow: "0 14px 38px rgba(0,0,0,0.24)",
+              }}
+            >
+              meuprontuario.app.br
+            </div>
+
+            <div
+              style={{
+                marginTop: 34,
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+                gap: 18,
+                color: "#FFFFFF",
+                fontSize: 28,
+                fontWeight: 800,
+                opacity: 0.96,
+              }}
+            >
+              <span style={{ fontSize: 36, lineHeight: 1 }}>→</span>
+              <span>acesse o site</span>
+            </div>
+          </div>
+        </div>
+      </AbsoluteFill>
+    </
