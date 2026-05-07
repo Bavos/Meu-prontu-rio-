@@ -1,0 +1,10 @@
+node_modules
+out
+final
+*.mp4
+*.mov
+*.zip
+*.png
+.DS_Store
+.remotion
+.cache
