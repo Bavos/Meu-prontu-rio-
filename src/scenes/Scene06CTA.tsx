@@ -95,7 +95,7 @@ export const Scene06CTA: React.FC = () => {
         >
           meuprontuario.app.br
         </div>
-
-        <div
-          style={{
+      </div>
+    </AbsoluteFill>
+  );
 };
